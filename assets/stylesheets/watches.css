@@ -1,4 +1,4 @@
-@import url('watches.variables.css');
+@import url('menu-light-mode.variables.css');
 @import url('header.css');
 @import url('breadcrumbs.css');
 @import url('pagination.css');
@@ -101,7 +101,7 @@ main#main-content section.product-catalog article.product-card img.product-image
     max-width: 100%;
     height: auto;
     display: flex;
-    width: 348px;
+    width: 316px;
     padding: 0px 0.077px;
     justify-content: center;
     align-items: center;
