@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Wathes - Boutique dos Relógios</title>
+    <title>Watches - Boutique dos Relógios</title>
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
@@ -30,9 +30,12 @@
         </nav>
     </header>
 
-    <section class="bradcrumbs">
-        <article></article>
-    </section>
+    <nav class="bradcrumbs">
+        <ol>
+            <li><a href="home.html">Home</a></li>
+            <li><a class="active" href="watches.html">Watches</a></li>
+        </ol>
+    </nav>
 
     <main id="main-content">
         <h1>Watches</h1>
@@ -144,6 +147,21 @@
                 </div>
             </article>
         </section>
+
+        <nav class="pagination" aria-label="product-catalog-pagination">
+            <div class="pagination-control">
+                <a class="first-page-link" href="?page=1"></a>
+                <ul class="page-list-links">
+                    <li><a href="?page=1">1</a></li>
+                    <li><a href="?page=2">2</a></li>
+                    <li><a href="?page=3">3</a></li>
+                    <li><a href="?page=4">4</a></li>
+                    <li><a href="?page=...">...</a></li>
+                    <li><a href="?page=16">16</a></li>
+                </ul>
+                <a class="last-page-link active" href="?page=16"></a>
+            </div>
+        </nav>
     </main>
 
     <footer>

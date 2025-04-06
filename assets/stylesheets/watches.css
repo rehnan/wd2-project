@@ -1,12 +1,8 @@
 @import url('menu-light-mode.variables.css');
 @import url('header.css');
+@import url('breadcrumbs.css');
+@import url('pagination.css');
 @import url('footer.css');
-
-/* Início Bradcrumbs */
-section.bradcrumbs {
-    height: 100px;
-}
-/* Fim Bradcrumbs */
 
 /* Início Watches Catalog */
 main#main-content h1 {
@@ -16,6 +12,7 @@ main#main-content h1 {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    margin: 0 0 24px 0;
 }
 
 main#main-content section.product-catalog {
@@ -129,6 +126,5 @@ main#main-content section.product-catalog article.product-card div.product-detai
     overflow: hidden;
     text-overflow: ellipsis;
 }
-
 
 /* Fim Watches Catalog */
