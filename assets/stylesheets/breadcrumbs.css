@@ -31,6 +31,16 @@ nav.bradcrumbs ol li a.active {
     color: #201F24;
 }
 
+ nav.bradcrumbs ol li a.active:hover {
+     color: var(--Brand-90);
+     cursor: default;
+ }
+
+ nav.bradcrumbs ol li a:not(.active):hover {
+     color: var(--Brand-90);
+     cursor: pointer;
+ }
+
 nav.bradcrumbs ol li {
     display: flex;
     flex-direction: row;
@@ -47,6 +57,6 @@ nav.bradcrumbs ol li:not(:last-child)::after {
   background-image: url('../../assets/icons/button-icon-arrow-right-xs.svg');
   background-size: contain;
   background-repeat: no-repeat;
-} 
+}
 
 /* Fim Bradcrumbs */
