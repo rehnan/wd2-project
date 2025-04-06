@@ -1,3 +1,95 @@
 @import url('menu-light-mode.variables.css');
 @import url('header.css');
 @import url('footer.css');
+
+/* Início Seção Banner */
+section.banner {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    height: 900px;
+    background: url('../images/pages/news/banner.jpg') no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 0 0 48px 0;
+    grid-template-areas:
+        ". . . . . . . . . . . ."
+        ". . . . . . . . . . . ."
+        ". . . . . . . . . . . ."
+        ". . text . . . . . . . . ."
+        ". . . . . . . . . . . .";
+}
+
+section.banner p.overlay-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 0;
+    grid-area: text;
+    background: transparent;
+}
+
+section.banner p.overlay-text span:first-child {
+    color: var(--black);
+    font-family: Playfair;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+section.banner p.overlay-text span:last-child {
+    color: var(--black);
+    font-family: "Playfair Display";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-size: 50px;
+    margin: -60px -65px 0 0;
+}
+
+p.tag {
+color: var(--black);
+font-size: 14px;
+font-family: Poppins;
+font-weight: 400;
+padding: 12px 16px 12px 16px;
+}
+
+/* Fim Seção Banner */
+
+/* Início Seção New Cards */
+main#main-content section.recent-news {
+    font-family: "Playfair Display";
+    font-style: normal;
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 48px;
+}
+
+main#main-content section.recent-news div article h2, main#main-content section.recent-news div article a {
+    padding: 10px;
+}
+
+main#main-content section.recent-news div.container.articles-container article.article {
+    transition: all 0.3s ease;
+    opacity: 1;
+}
+
+main#main-content section.recent-news div.container.articles-container article.article:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    opacity: 0.8;
+}
+
+main#main-content section.recent-news h1 {
+    margin: 0;
+    font-size: 60px;
+    font-weight: 500;
+}
+/* Fim Seção New Cards */

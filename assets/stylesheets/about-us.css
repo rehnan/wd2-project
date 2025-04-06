@@ -1,3 +1,14 @@
 @import url('menu-light-mode.variables.css');
 @import url('header.css');
 @import url('footer.css');
+
+main#main-content section.tempus-group {
+    font-family: "Playfair Display";
+    font-style: normal;
+    line-height: normal;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 48px;
+}
