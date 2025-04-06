@@ -1,0 +1,70 @@
+main#main-content nav.pagination {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     width: 100%;
+     margin: 48px 0 92px 0;
+ }
+ 
+ main#main-content nav.pagination div.pagination-control {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     gap: 24px;
+ }
+ 
+ main#main-content nav.pagination div.pagination-control ul.page-list-links {
+     display: flex;
+     flex-direction: row;
+     gap: 8px;
+     margin-top: 6px;
+ }
+ 
+ main#main-content nav.pagination div.pagination-control ul.page-list-links li {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     color: #201F24;
+     font-size: 14px;
+     font-weight: 400;
+     height: 24px;
+     width: 24px;
+ }
+ 
+ main#main-content nav.pagination div.pagination-control ul.page-list-links li a {
+     color: #201F24;
+     font-size: 14px;
+     font-weight: 400;
+ }
+
+ main#main-content nav.pagination div.pagination-control ul.page-list-links li:hover
+ {
+     background-color: #FDF9F4;
+     border-radius: 2px;
+ }
+
+ main#main-content nav.pagination div.pagination-control a {
+     height: 24px;
+     width: 24px;
+     padding: 5px;
+ }
+
+ main#main-content nav.pagination div.pagination-control a.active:hover {
+     background-color: #F4E3D4;
+     border-radius: 2px;
+ }
+ 
+ main#main-content nav.pagination div.pagination-control a.first-page-link {
+    display: inline-block;
+    background-image: url('../../assets/icons/button-icon-arrow-left.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+ }
+ 
+ main#main-content nav.pagination div.pagination-control a.last-page-link {
+    display: inline-block;
+    background-image: url('../../assets/icons/button-icon-arrow-right.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+ } 
