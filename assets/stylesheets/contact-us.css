@@ -2,3 +2,130 @@
 @import url('header.css');
 @import url('breadcrumbs.css');
 @import url('footer.css');
+
+main#main-content section.contacts {
+    width: 100%;
+}
+
+main#main-content section h1 {
+    font-family: var(--font-family-h1);
+    margin: 0 0 48px 0;
+}
+
+main#main-content section article div h5 {
+    font-family: Poppins;
+    font-size: 18px;
+    color: var(--black);
+    font-weight: 400;
+    text-transform: none;
+    margin: 0 0 8px 0;
+}
+
+main#main-content section article div p {
+    margin: 0;
+}
+
+main#main-content section.contacts article {
+    display: flex;
+    flex-direction: row;
+    gap: 108px
+}
+
+main#main-content section.contact-us {
+    margin: 48px 0 48px 0;
+    width: 100%;
+}
+
+main#main-content section.contact-us article.background-image {
+    background: url('../images/pages/contact us/Form-background.jpg') no-repeat;
+    background-size: cover;
+    height: 634px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+main#main-content section.contact-us article.background-image div.container-contact-form {
+    display: flex;
+    max-width: 720px;
+    height: 100%;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid rgba(255, 255, 255, 0.90);
+    background: rgba(255, 255, 255, 0.90);
+    backdrop-filter: blur(2px);
+    margin: 40px;
+}
+
+main#main-content section.contact-us article.background-image div form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+}
+
+main#main-content section.contact-us article.background-image div form div.form-group label:not(:last-child) {
+    display: none;
+}
+
+main#main-content section.contact-us article.background-image div form div.form-group {
+    display: flex  ;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    gap: 48px;
+}
+
+main#main-content section.contact-us article.background-image div form div.form-group div {
+    display: flex;
+    flex-direction: row;
+    gap: 76px;
+}
+
+main#main-content section.contact-us article.background-image div form div.form-group label.policies-terms {
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: -40px;
+}
+
+main#main-content section.contact-us article.background-image div form div.form-group div,
+main#main-content section.contact-us article.background-image div form div.form-group div textarea,
+main#main-content section.contact-us article.background-image div form div.form-group div input {
+    width: 100%;
+}
+
+main#main-content section.contact-us article.background-image div form div.form-group div input {
+    border: none;
+    border-bottom: 1px solid #64626C;
+    outline: none;
+    background: transparent;
+    display: flex;
+    height: 30px;
+    padding: 0 8px 8px 8px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+    flex: 1 0 0;
+    font-size: 16px;
+}
+
+main#main-content section.contact-us article.background-image div form div.form-group div textarea:focus {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #64626C;
+}
+main#main-content section.contact-us article.background-image div form div.form-group div textarea {
+    background: transparent;
+    padding: 0 8px 8px 8px;
+    border: none;
+    border-bottom: 1px solid #64626C;
+}
+
+main#main-content section.contact-us article.background-image div form div.form-group input[type="checkbox"] {
+    width: 24px;
+    height: 20px;
+    margin: 0;
+}

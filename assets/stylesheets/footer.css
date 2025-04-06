@@ -98,7 +98,7 @@ footer section.news-letter form div label#label-age-accept {
 footer section.news-letter form div label#label-age-accept input[type="checkbox"] {
     width: 24px;
     height: 20px;
-    margin: 0px;
+    margin: 0;
 }
 
 footer section.news-letter h2 {
@@ -240,12 +240,12 @@ a {
      display: flex; /* Ativa o Flexbox */
      justify-content: space-between; /* Distribui os artigos uniformemente */
      align-items: flex-start; /* Alinha os artigos no topo */
-     /* max-width: 1464px; */ /* Largura fixa para 1920px de tela */ 
+     /* max-width: 1464px; */ /* Largura fixa para 1920px de tela */
      width: 100%; /* Ocupa 100% da largura do container pai */
      margin: 0 auto; /* Centraliza o container */
      gap: 24px; /* Espaço entre os artigos */
  }
- 
+
  /* Estilos para cada artigo */
  .article {
      display: flex; /* Ativa o Flexbox dentro do artigo */
@@ -254,13 +254,13 @@ a {
      width: 33.33%; /* Cada artigo ocupa 1/3 da largura do container */
      box-sizing: border-box; /* Inclui padding no cálculo da largura */
  }
- 
+
  /* Estilos para a imagem */
  .article img {
      width: 100%; /* A imagem ocupa toda a largura do artigo */
      height: auto; /* Mantém a proporção da imagem */
  }
- 
+
  /* Media Query para telas menores (mobile) */
  @media (max-width: 768px) {
      .articles-container {
@@ -268,13 +268,13 @@ a {
          align-items: center; /* Alinha os artigos no centro */
          max-width: 100%; /* No mobile, ocupa a largura total da tela */
      }
- 
+
      .article {
          width: 100%; /* Cada artigo ocupa 100% da largura do container */
          margin-bottom: 20px; /* Espaço entre os artigos */
      }
  }
- 
+
  /* Media Query para telas maiores que 1920px */
  @media (min-width: 1920px) {
      .articles-container {
