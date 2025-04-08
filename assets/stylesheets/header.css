@@ -1,0 +1,391 @@
+html {
+    background: var(--white);
+    overflow-y: scroll;
+    scrollbar-width: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: var(--white);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Início Cabeçalho */
+header {
+     position: fixed;
+     top: 0;
+     right: 0;
+     left: 0;
+     height: 40px;
+     z-index: 1000;
+     padding: 32px 215px 32px 215px;
+     display: flex;
+     align-items: center;
+     border-bottom: 1px solid var(--header-border-bottom-color);
+     background: var(--header-bg-color);
+     backdrop-filter: blur(15px);
+}
+
+header a.skip-link {
+     display: none;
+}
+
+header nav {
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+}
+
+header nav a.logo {
+     width: 294.365px;
+     min-width: 310px;
+     height: 40px;
+     flex-shrink: 0;
+}
+
+header nav ul.menu {
+     height: 40px;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-between;
+     gap: 48px;
+}
+
+header nav ul.menu li a {
+     color: var(--menu-item-color);
+     font-family: 'Poppins', sans-serif;
+     font-size: 22px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+     white-space: nowrap;
+     text-decoration: none; /* Remove default underline */
+     padding-bottom: 5px;
+     font-weight: 400;
+}
+
+header nav ul.menu li a.active {
+     border-bottom: 3px solid var(--menu-item-color);
+     padding-bottom: 2px;
+     font-weight: 600;
+}
+
+header nav ul.menu li a:hover {
+     color: var(--Brand-90);
+     border-bottom: 2px solid var(--Brand-90);
+     padding-bottom: 2px;
+}
+/* Fim Cabeçalho */
+
+
+/* Início Seção Conteúdo Principal */
+main#main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    margin: 0;
+    border-bottom: 1px solid #E1E0E6;
+}
+/* Início Seção Men Watchs */
+
+main#main-content {
+    margin: 0 227px 8px 227px;
+}
+
+/* Início Seção Rodapá */
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    margin: 0 227px 0 227px;
+    gap: 20%;
+    flex-wrap: nowrap;
+}
+
+footer section.news-letter, footer section.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex: 1;
+    gap: 60px;
+}
+
+footer section.news-letter, footer section.links div h2 {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 0 20px 0;
+    text-wrap: nowrap;
+}
+
+footer section.links div h2 {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 0 20px 0;
+    text-wrap: nowrap;
+    text-transform: uppercase;
+}
+
+footer section.news-letter, footer section.links div ul{
+    display: flex;
+    flex-direction: column;
+    text-wrap: nowrap;
+    gap: 16px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+footer section.news-letter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+
+footer section.news-letter form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    margin: 16px 0 0 0;
+}
+
+footer section.news-letter form div:first-child {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 24px;
+    margin: 4px;
+}
+
+footer section.news-letter form div:last-child {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+footer section.news-letter form label#label-name,
+footer section.news-letter form label#label-email {
+    display: none;
+}
+
+footer section.news-letter form input#name,
+footer section.news-letter form input#email {
+    border: none;
+    border-bottom: 2px solid #64626C;
+    height: 27px;
+    width: 100%;
+    max-width: 215px;
+    outline: none;
+}
+
+footer section.news-letter form div label#label-age-accept {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    margin: 8px;
+    font-size: 12px;
+}
+
+footer section.news-letter form div label#label-age-accept input[type="checkbox"] {
+    width: 24px;
+    height: 20px;
+    margin: 0px;
+}
+
+footer section.news-letter h2 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: var(--black);
+    font-family: "Playfair Display";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-wrap: nowrap;
+    margin: 0;
+}
+
+footer section.news-letter h2 span {
+    background: #F4E3D4;
+    font-size: 42px;
+    width: max-content;
+    padding: 0 5px 0 0px;
+}
+/* Fim Seção Rodapé */
+
+/* Classes comuns */
+
+.no-wrap-text {
+    white-space: nowrap;
+}
+
+h1 {
+     font-family: var(--font-family-h1);
+     font-weight: var(--font-weight);
+     color: var(--black);
+     font-size: 60px;
+     text-align: left;
+     margin: 0;
+
+}
+
+h1.secondary {
+     font-family: 'Poppins', sans-serif;
+     font-weight: normal;
+     color: var(--black);
+     font-size: 32px;
+     text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+h2 {
+     font-family: 'Poppins', sans-serif;
+     font-size: 27px;
+     color: var(--black);
+     font-weight: normal;
+     text-align: left;
+     margin-bottom: 20px;
+}
+h3 {
+     font-family: 'Playfair Display', serif;
+     font-weight: var(--font-weight);
+     color: var(--black);
+     font-size: 40px;
+     text-align: left;
+     margin: 0;
+}
+
+h4 {
+     font-family: 'Poppins', sans-serif;
+     font-size: 27px;
+     color: var(--black);
+     font-weight: normal;
+     text-align: left;
+     margin: 0;
+}
+
+h5 {
+     font-family: 'Poppins', sans-serif;
+     font-size: 18px;
+     color: var(--black);
+     font-weight: 600;
+     text-transform: uppercase;
+     text-align: left;
+     margin: 0;
+}
+
+p {
+     font-family: 'Poppins', sans-serif;
+     font-size: 16px;
+     color: var(--black);
+     font-weight: normal;
+     text-align: left;
+}
+
+p.caption {
+     font-family: 'Poppins', sans-serif;
+     font-size: 14px;
+     color: var(--Brand-90);
+     font-weight: 600;
+     text-transform: uppercase;
+     text-align: left;
+}
+
+/* Listas */
+ul {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+}
+
+/* Botões */
+button {
+     font-family: 'Poppins', sans-serif;
+     font-size: 14px;
+     font-weight: 400;
+     height: 40px;
+     padding: 0 16px;
+     border-radius: 2px;
+     display: inline-flex;
+     align-items: center;
+     justify-content: center;
+     cursor: pointer;
+     transition: all 0.2s ease-in-out;
+}
+
+.button-outline {
+     background: #FFFFFF;
+     border: 1px solid #201F24;
+     color: var(--black);
+}
+
+.button-outline:hover {
+     box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+}
+
+.button-outline:active {
+     background: #F0F0F3;
+}
+
+.button-filled {
+     background: #895F34;
+     color: #FFFFFF;
+     border: none;
+}
+
+.button-filled:hover {
+     box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+}
+
+.button-filled:active {
+     background: #633F19;
+}
+
+/* Links */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+a {
+     font-family: 'Poppins', sans-serif;
+     text-decoration: none;
+}
+
+.primary-link,
+.secondary-link {
+     font-size: 18px;
+     font-weight: 500;
+}
+
+.tertiary-link {
+     font-size: 14px;
+     font-weight: 400;
+}
+
+.primary-link {
+     color: #895f34;
+}
+
+.secondary-link,
+.tertiary-link {
+     color: var(--black);
+}
+
+.primary-link:hover,
+.secondary-link:hover,
+.tertiary-link:hover {
+     text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 3px;
+}

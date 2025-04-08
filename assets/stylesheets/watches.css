@@ -1,0 +1,146 @@
+@import url('menu-light-mode.variables.css');
+@import url('header.css');
+@import url('breadcrumbs.css');
+@import url('pagination.css');
+@import url('footer.css');
+
+/* Início Watches Catalog */
+main#main-content h1 {
+    color: #201F24;
+    font-family: "Playfair Display";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0 0 24px 0;
+}
+
+main#main-content section.product-catalog {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 8px;
+    width: 100%;
+}
+
+main#main-content section.product-catalog-filter {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 24px 0 24px 0;
+}
+
+main#main-content section.product-catalog-filter div.filters {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+main#main-content section.product-catalog-filter span {
+    display: flex;
+    height: 36px;
+    padding: 2px 16px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 999px;
+    background: #F4E3D4;
+    margin: 0;
+}
+
+main#main-content section.product-catalog-filter span.applied {
+    background: #895F34;
+}
+
+main#main-content section.product-catalog-filter span.applied p {
+    color: #FFF;
+}
+
+main#main-content section.product-catalog-filter span p {
+    margin: 0;
+}
+
+main#main-content section.product-catalog-filter form.apply-filter-form button {
+    display: flex;
+    height: 40px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 2px;
+    border: 1px solid #201F24;
+    background: #FFF;
+}
+
+main#main-content section.product-catalog-filter form.apply-filter-form button:hover {
+    cursor: pointer;
+    border-radius: 2px;
+    border: 1px solid #201F24;
+    background: #F9F9FB;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+main#main-content section.product-catalog {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 24px;
+    width: 100%;
+}
+
+main#main-content section.product-catalog article.product-card {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+main#main-content section.product-catalog article.product-card div.product-details {
+    display: flex;
+    padding-bottom: 4px;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+main#main-content section.product-catalog article.product-card div.product-details div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+main#main-content section.product-catalog article.product-card img.product-image {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    width: 316px;
+    padding: 0px 0.077px;
+    justify-content: center;
+    align-items: center;
+}
+
+main#main-content section.product-catalog article.product-card div.product-details div p {
+    margin: 0;
+}
+
+main#main-content section.product-catalog article.product-card div.product-details div p.product-brand {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+main#main-content section.product-catalog article.product-card div.product-details div p.product-price {
+    font-size: 14px;
+}
+
+main#main-content section.product-catalog article.product-card div.product-details div p.product-name {
+    max-width: 320px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Fim Watches Catalog */

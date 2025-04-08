@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us - Boutique dos Relógios</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/kapakana" rel="stylesheet">
+    <!-- Icon -->
+    <link rel="icon" type="image/svg" href="assets/images/logo/favicon.svg">
+    <!-- Style -->
+    <link rel="stylesheet" href="assets/stylesheets/contact-us.css">
+</head>
+
+<body>
+    <header>
+        <a href="#main-content" class="skip-link">Skip to main content</a>
+        <nav aria-label="Main Navigation">
+            <a href="#" class="logo"><img src="assets/images/logo/logo-black.svg" alt="Go to the homepage"></a>
+            <ul class="menu">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="watches.html">Watches</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="contact-us.html" class="active" >Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <nav class="bradcrumbs">
+        <ol>
+            <li><a href="home.html">Home</a></li>
+            <li><a class="active" href="contact-us.html">Contact Us</a></li>
+        </ol>
+    </nav>
+
+    <main id="main-content">
+        <section class="contacts">
+            <h1>Contacts</h1>
+            <article>
+                <div>
+                    <h5>Head Offices</h5>
+                    <p>Tempus Group S.A.<p>
+                    <p>Av. da Liberdad, nº13 2º andar, 1500-000,</p>
+                    <p>Lisboa - Portugal</p>
+                </div>
+                <div>
+                    <h5>Contacts</h5>
+                    <p>tempusgroup@geral.com</p>
+                    <p>+351 219 888 777</p>
+                </div>
+            </article>
+        </section>
+
+        <section class="contact-us">
+            <h1>Contacts Us</h1>
+            <article class="background-image">
+                <div class="container-contact-form">
+                    <form action="/enviar" method="post">
+                        <p>
+                            We’d love to hear from you! Whether you have questions about our collections, need assistance,
+                            or want to share your experience, our team is here to help.
+                        </p>
+                        <!-- Nome -->
+                        <div class="form-group">
+                            <div>
+                                <label for="contact-name">Nome</label>
+                                <input type="text" id="contact-name" name="contact-name" placeholder="Name" required />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div>
+                                <label for="email-contact">E-mail</label>
+                                <input type="email" id="email-contact" name="email-contact" placeholder="Email" required />
+                            </div>
+                            <div>
+                                <label for="contact-phone">Telefone</label>
+                                <input type="tel" id="contact-phone" name="contact-phone" placeholder="Telephone number" pattern="[0-9]{10,15}" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div>
+                                <label for="contact-message">Mensagem</label>
+                                <textarea id="contact-message" name="contact-message" rows="5" placeholder="Message" required></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="checkbox" id="policies-terms" name="policies-terms" required />
+                            <label for="policies-terms" class="policies-terms">
+                                I´m over 16 and have read and accept the Terms & Conditions and Privacy Policies.
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="button-filled">Send Request</button>
+                        </div>
+                    </form>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <section class="links">
+            <div>
+                <h2>About Us</h2>
+                <ul>
+                    <li><a href="#" class="tertiary-link">Tempus Group</a></li>
+                    <li><a href="#" class="tertiary-link">Our Values</a></li>
+                    <li><a href="#" class="tertiary-link">Store Concepts</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h2>Special Events</h2>
+                <ul>
+                    <li><a href="#" class="tertiary-link">Black Friday 2024</a></li>
+                    <li><a href="#" class="tertiary-link">Campaig FW24</a></li>
+                    <li><a href="#" class="tertiary-link">Collections</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h2>Corporate</h2>
+                <ul>
+                    <li><a href="#" class="tertiary-link">News</a></li>
+                    <li><a href="#" class="tertiary-link">Site map</a></li>
+                    <li><a href="#" class="tertiary-link">Franchising</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h2>Policies</h2>
+                <ul>
+                    <li><a href="#" class="tertiary-link">Accessibility Statement</a></li>
+                    <li><a href="#" class="tertiary-link">Cookies policy</a></li>
+                    <li><a href="#" class="tertiary-link">Privacy policy</a></li>
+                    <li><a href="#" class="tertiary-link">Terms & conditions</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="news-letter">
+            <h2>Join our newsletter <span>get 10% off</span></h2>
+            <form>
+                <div>
+                    <label for="name" id="label-name">Name:</label>
+                    <input type="text" id="name" name="name" required aria-required="true" placeholder="Name"
+                        aria-labelledby="label-Add name">
+
+                    <label for="email" id="label-email">Email:</label>
+                    <input type="email" id="email" name="email" required aria-required="true" placeholder="Email"
+                        aria-labelledby="label-Add email">
+                </div>
+
+                <div>
+                    <label for="age-accept" id="label-age-accept">
+                        <input type="checkbox" id="age-accept" name="age-accept" required aria-required="true"
+                            aria-labelledby="label-age-accept">
+                        <span>
+                            I’m over 16 and have read and accept the
+                            <a href="#" target="_blank" aria-label="Terms & Conditions"
+                                title="Read the Terms and Conditions">Terms & Conditions</a>
+                            and
+                            <a href="#" target="_blank" aria-label="Privacy Policies"
+                                title="Read the Privacy Policy">Privacy Policies</a>.
+                        </span>
+                    </label>
+
+                    <button type="submit" class="button-filled"
+                        aria-label="Subscribe to the newsletter">Subscribe</button>
+                </div>
+
+            </form>
+        </section>
+
+    </footer>
+
+</body>
+
+</html>

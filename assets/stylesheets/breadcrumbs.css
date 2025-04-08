@@ -1,0 +1,62 @@
+ /* Início Bradcrumbs */
+nav.bradcrumbs {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    width: 100%;
+    margin: 136px 227px 48px 227px;
+}
+
+nav.bradcrumbs ol {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 8px;
+}
+
+nav.bradcrumbs ol li a {
+    color: #64626C;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+nav.bradcrumbs ol li a.active {
+    color: #201F24;
+}
+
+ nav.bradcrumbs ol li a.active:hover {
+     color: var(--Brand-90);
+     cursor: default;
+ }
+
+ nav.bradcrumbs ol li a:not(.active):hover {
+     color: var(--Brand-90);
+     cursor: pointer;
+ }
+
+nav.bradcrumbs ol li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+
+nav.bradcrumbs ol li:not(:last-child)::after {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url('../../assets/icons/button-icon-arrow-right-xs.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Fim Bradcrumbs */

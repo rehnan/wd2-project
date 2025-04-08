@@ -1,0 +1,154 @@
+@import url('menu-light-mode.variables.css');
+@import url('header.css');
+@import url('breadcrumbs.css');
+@import url('pagination.css');
+@import url('footer.css');
+
+nav.bradcrumbs {
+    position: relative;
+    z-index: 1;
+}
+
+/* Início Seção Banner */
+section.banner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 900px;
+    background: url('../images/pages/news/banner.jpg') no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: -207px 0 48px 0;
+    padding: 0 227px 0 227px;
+}
+
+section.banner article {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 32px;
+    max-width: 470px;
+    min-width: 300px;
+    margin-top: 127px;
+}
+
+section.banner article div.title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+section.banner article p {
+    color: #201F24;
+    font-family: "Playfair Display";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+}
+
+section.banner article a {
+    color: #201F24;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+section.banner article div.title h1 {
+    color: #201F24;
+    margin: 0;
+}
+
+section.banner article div.title p.tag {
+    margin: 0;
+    color: #201F24;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, 0.70);
+    background: rgba(255, 255, 255, 0.10);
+}
+
+section.banner p.overlay-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 0;
+    grid-area: text;
+    background: transparent;
+}
+
+section.banner p.overlay-text span:first-child {
+    color: var(--black);
+    font-family: Playfair;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+section.banner p.overlay-text span:last-child {
+    color: var(--black);
+    font-family: "Playfair Display";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-size: 50px;
+    margin: -60px -65px 0 0;
+}
+
+p.tag {
+color: var(--black);
+font-size: 14px;
+font-family: Poppins;
+font-weight: 400;
+padding: 12px 16px 12px 16px;
+}
+
+/* Fim Seção Banner */
+
+/* Início Seção New Cards */
+main#main-content section.recent-news {
+    font-family: "Playfair Display";
+    font-style: normal;
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 48px;
+}
+
+main#main-content section.recent-news div article h2, main#main-content section.recent-news div article a {
+    padding: 10px;
+}
+
+main#main-content section.recent-news div.container.articles-container article.article {
+    transition: all 0.3s ease;
+    opacity: 1;
+}
+
+main#main-content section.recent-news div.container.articles-container article.article:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    opacity: 0.8;
+}
+
+main#main-content section.recent-news h1 {
+    margin: 0;
+    font-size: 60px;
+    font-weight: 500;
+}
+/* Fim Seção New Cards */
