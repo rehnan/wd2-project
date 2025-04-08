@@ -237,7 +237,8 @@ h1 {
      color: var(--black);
      font-size: 60px;
      text-align: left;
-     margin-bottom: 24px;
+     margin: 0;
+
 }
 
 h1.secondary {
@@ -264,6 +265,7 @@ h3 {
      color: var(--black);
      font-size: 40px;
      text-align: left;
+     margin: 0;
 }
 
 h4 {
@@ -272,6 +274,7 @@ h4 {
      color: var(--black);
      font-weight: normal;
      text-align: left;
+     margin: 0;
 }
 
 h5 {
@@ -281,6 +284,7 @@ h5 {
      font-weight: 600;
      text-transform: uppercase;
      text-align: left;
+     margin: 0;
 }
 
 p {

@@ -11,5 +11,74 @@ main#main-content section.tempus-group {
     flex-direction: row;
     justify-content: center;
     gap: 24px;
+    padding-bottom: 48px
+}
+
+
+main#main-content section.our-values {
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+    padding-bottom: 48px;
+}
+
+main#main-content section.our-values div.container-article {
+    line-height: normal;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
     margin-bottom: 48px;
+}
+
+main#main-content section.our-values div.container-article article {
+    padding: 32px 32px;
+    background: #FDF9F4;
+    border-radius: 4px;
+}
+
+main#main-content section.our-values div.container-article div {
+    line-height: normal;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 24px;
+    align-items: center;
+}
+
+main#main-content section.store-concepts {
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+    padding-bottom: 96px;
+}
+
+main#main-content section.store-concepts div{
+    line-height: normal;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+}
+
+main#main-content section.store-concepts div article{
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+    align-items: center;
+}
+
+main#main-content section.store-concepts div article div.text{
+   gap: 0;
+   line-height: normal;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
