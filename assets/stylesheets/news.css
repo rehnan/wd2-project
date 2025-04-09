@@ -12,14 +12,14 @@ nav.bradcrumbs {
 /* Início Seção Banner */
 section.banner {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    height: 900px;
+    flex-direction: column;
+    align-items: start;
+    height: 100vh;
+    width: 100%;
     background: url('../images/pages/news/banner.jpg') no-repeat;
     background-size: cover;
     position: relative;
     margin: -207px 0 48px 0;
-    padding: 0 227px 0 227px;
 }
 
 section.banner article {
@@ -29,7 +29,7 @@ section.banner article {
     gap: 32px;
     max-width: 470px;
     min-width: 300px;
-    margin-top: 127px;
+    margin: 330px 0 0 227px;
 }
 
 section.banner article div.title {
