@@ -6,7 +6,7 @@ footer {
     justify-content: center;
     flex-wrap: wrap-reverse;
     margin: 96px 227px 0 227px;
-    gap: 20%;
+    gap: 10%;
     flex-wrap: nowrap;
 }
 
