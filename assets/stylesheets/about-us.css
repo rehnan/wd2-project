@@ -55,6 +55,7 @@ main#main-content section.store-concepts {
     justify-content: center;
     gap: 24px;
     padding-bottom: 96px;
+    width: 100%;
 }
 
 main#main-content section.store-concepts div{
@@ -63,6 +64,7 @@ main#main-content section.store-concepts div{
     flex-direction: row;
     justify-content: center;
     gap: 24px;
+    width: 100%;
 }
 
 main#main-content section.store-concepts div article{
@@ -72,6 +74,10 @@ main#main-content section.store-concepts div article{
     justify-content: center;
     gap: 24px;
     align-items: center;
+}
+main#main-content section.store-concepts div article img{
+    flex-grow: 1;
+    width: 100%;
 }
 
 main#main-content section.store-concepts div article div.text{
