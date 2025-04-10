@@ -5,6 +5,10 @@
 @import url('footer.css');
 
 /* Início Watches Catalog */
+main#main-content {
+    align-items: start;
+}
+
 main#main-content h1 {
     color: #201F24;
     font-family: "Playfair Display";
