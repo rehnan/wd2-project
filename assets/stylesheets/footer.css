@@ -300,10 +300,9 @@ a {
     }
 }
 
-/* Media Query para telas maiores que 1920px */
-@media (min-width: 1920px) {
-    .articles-container {
-        max-width: 1464px;
-        /* Mantém a largura fixada em 1464px */
-    }
-}
+ /* Media Query para telas maiores que 1920px */
+ @media (min-width: 1920px) {
+     .articles-container {
+         max-width: 1464px; /* Mantém a largura fixada em 1464px */
+     }
+ }
