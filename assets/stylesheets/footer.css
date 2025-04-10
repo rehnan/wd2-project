@@ -10,7 +10,8 @@ footer {
     flex-wrap: nowrap;
 }
 
-footer section.news-letter, footer section.links {
+footer section.news-letter,
+footer section.links {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -18,7 +19,8 @@ footer section.news-letter, footer section.links {
     gap: 60px;
 }
 
-footer section.news-letter, footer section.links div h2 {
+footer section.news-letter,
+footer section.links div h2 {
     font-size: 16px;
     font-weight: 500;
     margin: 0 0 20px 0;
@@ -33,7 +35,8 @@ footer section.links div h2 {
     text-transform: uppercase;
 }
 
-footer section.news-letter, footer section.links div ul{
+footer section.news-letter,
+footer section.links div ul {
     display: flex;
     flex-direction: column;
     text-wrap: nowrap;
@@ -79,12 +82,14 @@ footer section.news-letter form label#label-email {
 
 footer section.news-letter form input#name,
 footer section.news-letter form input#email {
-    border: none;
-    border-bottom: 2px solid #64626C;
     height: 27px;
     width: 100%;
     max-width: 215px;
-    outline: none;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word;
+    border-bottom: 1px solid #64626C;
 }
 
 footer section.news-letter form div label#label-age-accept {
@@ -121,163 +126,184 @@ footer section.news-letter h2 span {
     width: max-content;
     padding: 0 5px 0 0px;
 }
+
 /* Fim Seção Rodapá */
 
 h1 {
-     font-family: var(--font-family);
-     font-weight: var(--font-weight);
-     color: var(--black);
-     font-size: 60px;
-     text-align: left;
-     margin-bottom: 24px;
+    font-family: var(--font-family);
+    font-weight: var(--font-weight);
+    color: var(--black);
+    font-size: 60px;
+    text-align: left;
+    margin-bottom: 24px;
 }
 
 h1.secondary {
-     font-family: 'Poppins', sans-serif;
-     font-weight: normal;
-     color: var(--black);
-     font-size: 32px;
-     text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    color: var(--black);
+    font-size: 32px;
+    text-align: center;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
 
 h2 {
-     font-family: 'Poppins', sans-serif;
-     font-size: 27px;
-     color: var(--black);
-     font-weight: normal;
-     text-align: left;
-     margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 27px;
+    color: var(--black);
+    font-weight: normal;
+    text-align: left;
+    margin-bottom: 20px;
 }
 
 /* Listas */
 ul {
-     list-style: none;
-     padding: 0;
-     margin: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 /* Botões */
 button {
-     font-family: 'Poppins', sans-serif;
-     font-size: 14px;
-     font-weight: 400;
-     height: 40px;
-     padding: 0 16px;
-     border-radius: 2px;
-     display: inline-flex;
-     align-items: center;
-     justify-content: center;
-     cursor: pointer;
-     transition: all 0.2s ease-in-out;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    height: 40px;
+    padding: 0 16px;
+    border-radius: 2px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
 }
 
 .button-outline {
-     background: #FFFFFF;
-     border: 1px solid #201F24;
-     color: var(--black);
+    background: #FFFFFF;
+    border: 1px solid #201F24;
+    color: var(--black);
 }
 
 .button-outline:hover {
-     box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
 }
 
 .button-outline:active {
-     background: #F0F0F3;
+    background: #F0F0F3;
 }
 
 .button-filled {
-     background: #895F34;
-     color: #FFFFFF;
-     border: none;
+    background: #895F34;
+    color: #FFFFFF;
+    border: none;
 }
 
 .button-filled:hover {
-     box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
 }
 
 .button-filled:active {
-     background: #633F19;
+    background: #633F19;
 }
 
 /* Links */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
 a {
-     font-family: 'Poppins', sans-serif;
-     text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
 }
 
 .primary-link,
 .secondary-link {
-     font-size: 18px;
-     font-weight: 500;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .tertiary-link {
-     font-size: 14px;
-     font-weight: 400;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .primary-link {
-     color: #895f34;
+    color: #895f34;
 }
 
 .secondary-link,
 .tertiary-link {
-     color: var(--black);
+    color: var(--black);
 }
 
 .primary-link:hover,
 .secondary-link:hover,
 .tertiary-link:hover {
-     text-decoration: underline;
+    text-decoration: underline;
 }
 
 /* Estilos gerais para o container */
 .articles-container {
-     display: flex; /* Ativa o Flexbox */
-     justify-content: space-between; /* Distribui os artigos uniformemente */
-     align-items: flex-start; /* Alinha os artigos no topo */
-     /* max-width: 1464px; */ /* Largura fixa para 1920px de tela */
-     width: 100%; /* Ocupa 100% da largura do container pai */
-     margin: 0 auto; /* Centraliza o container */
-     gap: 24px; /* Espaço entre os artigos */
- }
+    display: flex;
+    /* Ativa o Flexbox */
+    justify-content: space-between;
+    /* Distribui os artigos uniformemente */
+    align-items: flex-start;
+    /* Alinha os artigos no topo */
+    /* max-width: 1464px; */
+    /* Largura fixa para 1920px de tela */
+    width: 100%;
+    /* Ocupa 100% da largura do container pai */
+    margin: 0 auto;
+    /* Centraliza o container */
+    gap: 24px;
+    /* Espaço entre os artigos */
+}
 
- /* Estilos para cada artigo */
- .article {
-     display: flex; /* Ativa o Flexbox dentro do artigo */
-     flex-direction: column; /* Organiza os elementos do artigo na vertical */
-     align-items: flex-start; /* Alinha os itens à esquerda */
-     width: 33.33%; /* Cada artigo ocupa 1/3 da largura do container */
-     box-sizing: border-box; /* Inclui padding no cálculo da largura */
- }
+/* Estilos para cada artigo */
+.article {
+    display: flex;
+    /* Ativa o Flexbox dentro do artigo */
+    flex-direction: column;
+    /* Organiza os elementos do artigo na vertical */
+    align-items: flex-start;
+    /* Alinha os itens à esquerda */
+    width: 33.33%;
+    /* Cada artigo ocupa 1/3 da largura do container */
+    box-sizing: border-box;
+    /* Inclui padding no cálculo da largura */
+}
 
- /* Estilos para a imagem */
- .article img {
-     width: 100%; /* A imagem ocupa toda a largura do artigo */
-     height: auto; /* Mantém a proporção da imagem */
- }
+/* Estilos para a imagem */
+.article img {
+    width: 100%;
+    /* A imagem ocupa toda a largura do artigo */
+    height: auto;
+    /* Mantém a proporção da imagem */
+}
 
- /* Media Query para telas menores (mobile) */
- @media (max-width: 768px) {
-     .articles-container {
-         flex-direction: column; /* Organiza os artigos na vertical */
-         align-items: center; /* Alinha os artigos no centro */
-         max-width: 100%; /* No mobile, ocupa a largura total da tela */
-     }
+/* Media Query para telas menores (mobile) */
+@media (max-width: 768px) {
+    .articles-container {
+        flex-direction: column;
+        /* Organiza os artigos na vertical */
+        align-items: center;
+        /* Alinha os artigos no centro */
+        max-width: 100%;
+        /* No mobile, ocupa a largura total da tela */
+    }
 
-     .article {
-         width: 100%; /* Cada artigo ocupa 100% da largura do container */
-         margin-bottom: 20px; /* Espaço entre os artigos */
-     }
- }
+    .article {
+        width: 100%;
+        /* Cada artigo ocupa 100% da largura do container */
+        margin-bottom: 20px;
+        /* Espaço entre os artigos */
+    }
+}
 
- /* Media Query para telas maiores que 1920px */
- @media (min-width: 1920px) {
-     .articles-container {
-         max-width: 1464px; /* Mantém a largura fixada em 1464px */
-     }
- }
+/* Media Query para telas maiores que 1920px */
+@media (min-width: 1920px) {
+    .articles-container {
+        max-width: 1464px;
+        /* Mantém a largura fixada em 1464px */
+    }
+}

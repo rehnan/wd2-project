@@ -110,6 +110,7 @@ main#main-content section.contact-us article.background-image div form div.form-
     gap: 8px;
     flex: 1 0 0;
     font-size: 16px;
+    font-family: poppins;
 }
 
 main#main-content section.contact-us article.background-image div form div.form-group div textarea:focus {
@@ -119,7 +120,9 @@ main#main-content section.contact-us article.background-image div form div.form-
 }
 main#main-content section.contact-us article.background-image div form div.form-group div textarea {
     background: transparent;
+    font-family: poppins;
     padding: 0 8px 8px 8px;
+    font-size: 16px;
     border: none;
     border-bottom: 1px solid #64626C;
 }
