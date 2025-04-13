@@ -5,9 +5,8 @@ footer {
     align-items: baseline;
     justify-content: center;
     flex-wrap: wrap-reverse;
-    margin: 96px 227px 0 227px;
+    margin: 96px 11.82% 0 11.82%;
     gap: 10%;
-    flex-wrap: nowrap;
 }
 
 footer section.news-letter,
@@ -15,8 +14,9 @@ footer section.links {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
     flex: 1;
-    gap: 60px;
+    gap: 50px;
 }
 
 footer section.news-letter,
