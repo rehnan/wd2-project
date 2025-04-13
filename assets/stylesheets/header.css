@@ -101,7 +101,7 @@ main#main-content {
 /* Início Seção Men Watchs */
 
 main#main-content {
-     margin: 0 227px 8px 227px;
+     margin: 0 11.82% 8px 11.82%;
 }
 
 /* Início Seção Rodapá */
@@ -111,7 +111,7 @@ footer {
      align-items: baseline;
      justify-content: center;
      flex-wrap: wrap-reverse;
-     margin: 0 227px 0 227px;
+     margin: 0 11.82% 0 11.82%;
      gap: 20%;
      flex-wrap: nowrap;
 }
