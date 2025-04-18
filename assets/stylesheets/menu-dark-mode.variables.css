@@ -2,11 +2,13 @@
      --black: #201F24;
      --white: #FFFFFF;
      --Alpha-White-10: #000000 · 40%;
-     --Alpha-White-60: #000000 · 60%
+     --Alpha-White-60: #000000 · 60%;
      --font-family: 'Playfair Display', serif;
      --font-weight: normal;
      --Brand-90: #895F34;
      --header-bg-color: rgba(0, 0, 0, 0.40);
      --header-border-bottom-color: rgba(255, 255, 255, 0.10);
      --menu-item-color: #FFFFFF;
+     --menu-border-color: #ffffff;
+     --menu-icon-svg: url('../icons/menu.svg');
 }

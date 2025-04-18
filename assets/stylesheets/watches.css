@@ -19,13 +19,7 @@ main#main-content h1 {
     margin: 0 0 24px 0;
 }
 
-main#main-content section.product-catalog {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    gap: 8px;
-    width: 100%;
-}
+
 
 main#main-content section.product-catalog-filter {
     width: 100%;
@@ -89,11 +83,12 @@ main#main-content section.product-catalog-filter form.apply-filter-form button:h
 
 main#main-content section.product-catalog {
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
     align-items: start;
     flex-wrap: wrap;
-    gap: 24px;
     width: 100%;
+    row-gap: 24px;
 }
 
 main#main-content section.product-catalog article.product-card {

@@ -10,4 +10,6 @@
      --header-bg-color: rgba(255, 255, 255, 0.40);
      --header-border-bottom-color: rgba(0, 0, 0, 0.10);
      --menu-item-color: #201F24;
+     --menu-border-color: #000000;
+     --menu-icon-svg: url('../icons/menu-black.svg');
 }

@@ -1,107 +1,140 @@
 html {
-     background: var(--white);
-     overflow-y: scroll;
-     scrollbar-width: none;
-     margin: 0;
-     padding: 0;
+    background: var(--white);
+    overflow-y: scroll;
+    scrollbar-width: none;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-     background: var(--white);
-     font-family: 'Poppins', sans-serif;
-     margin: 0;
-     padding: 0;
-     overflow-x: hidden;
+    background: var(--white);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
 
 /* Início Cabeçalho */
 header {
-     position: fixed;
-     top: 0;
-     right: 0;
-     left: 0;
-     height: 40px;
-     z-index: 1000;
-     padding: 32px 215px 32px 215px;
-     display: flex;
-     align-items: center;
-     border-bottom: 1px solid var(--header-border-bottom-color);
-     background: var(--header-bg-color);
-     backdrop-filter: blur(15px);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 16px 11.82% 16px 11.82%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid var(--header-border-bottom-color);
+    background: var(--header-bg-color);
+    backdrop-filter: blur(15px);
 }
 
 header a.skip-link {
-     display: none;
+    display: none;
 }
 
 header nav {
-     width: 100%;
-     display: flex;
-     flex-direction: row;
-     justify-content: space-between;
-     align-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
-header nav a.logo {
-     width: 294.365px;
-     min-width: 310px;
-     height: 40px;
-     flex-shrink: 0;
+header nav div.menu-line {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
 }
 
-header nav ul.menu {
-     height: 40px;
-     display: flex;
-     flex-direction: row;
-     align-items: center;
-     justify-content: space-between;
-     gap: 48px;
+header nav div.menu-line a.logo {
+    width: 100%;
+    max-width: 295px;
+
 }
 
-header nav ul.menu li a {
-     color: var(--menu-item-color);
-     font-family: 'Poppins', sans-serif;
-     font-size: 22px;
-     font-style: normal;
-     font-weight: 600;
-     line-height: normal;
-     white-space: nowrap;
-     text-decoration: none;
-     /* Remove default underline */
-     padding-bottom: 5px;
-     font-weight: 400;
+header nav div.menu-line a.logo img {
+    width: 100%;
+    height: auto;
 }
 
-header nav ul.menu li a.active {
-     border-bottom: 3px solid var(--menu-item-color);
-     padding-bottom: 2px;
-     font-weight: 600;
+header nav div {
+    justify-content: flex-end;
 }
 
-header nav ul.menu li a:hover {
-     color: var(--Brand-90);
-     border-bottom: 2px solid var(--Brand-90);
-     padding-bottom: 2px;
+header nav div.menu-line button.navbar-toggler {
+    border: none;
 }
+
+header nav div.menu-line button.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0px 0px;
+    border: 1px solid var(--mune-border-color);
+}
+
+header nav div.menu-line button.navbar-toggler span.navbar-toggler-icon {
+    background-image: var(--menu-icon-svg);
+}
+
+header nav div ul.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 48px;
+}
+
+header nav div ul.menu li a {
+    color: var(--menu-item-color);
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    white-space: nowrap;
+    text-decoration: none;
+    /* Remove default underline */
+    padding-bottom: 5px;
+    font-weight: 400;
+}
+
+header nav div.collapse.navbar-collapse ul li a.active {
+    border-bottom: 3px solid var(--menu-item-color);
+    padding-bottom: 2px;
+    font-weight: 600;
+    color:var(--menu-item-color) ;
+}
+
+header nav div ul.menu li a:hover {
+    color: var(--Brand-90);
+    border-bottom: 2px solid var(--Brand-90);
+    padding-bottom: 2px;
+}
+
 
 /* Fim Cabeçalho */
 
 
 /* Início Seção Conteúdo Principal */
 main#main-content {
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     justify-content: center;
-     margin: 0;
-     border-bottom: 1px solid #E1E0E6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    border-bottom: 1px solid #E1E0E6;
 }
 
 /* Início Seção Men Watchs */
 
 main#main-content {
-     margin: 0 11.82% 8px 11.82%;
+    margin: 0 11.82% 8px 11.82%;
 }
 
 /* Início Seção Rodapá */
@@ -384,6 +417,7 @@ a {
 
 .primary-link {
      color: #895f34;
+     text-decoration: none;
 }
 
 .secondary-link,

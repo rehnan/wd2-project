@@ -3,8 +3,8 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: baseline;
-    justify-content: center;
     flex-wrap: wrap-reverse;
+    justify-content: center;
     margin: 96px 11.82% 0 11.82%;
     gap: 10%;
 }
@@ -13,8 +13,7 @@ footer section.news-letter,
 footer section.links {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
+    justify-content: start;
     flex: 1;
     gap: 50px;
 }
@@ -42,6 +41,7 @@ footer section.links div ul {
     text-wrap: nowrap;
     gap: 16px;
     font-size: 14px;
+    padding: 0;
     font-weight: 400;
 }
 

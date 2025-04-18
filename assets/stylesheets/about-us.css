@@ -23,6 +23,7 @@ main#main-content section.our-values {
     justify-content: center;
     gap: 24px;
     padding-bottom: 48px;
+    width: 100%;
 }
 
 main#main-content section.our-values div.container-article {
@@ -33,6 +34,7 @@ main#main-content section.our-values div.container-article {
     flex-wrap: wrap;
     gap: 24px;
     margin-bottom: 48px;
+    justify-content: space-between;
 }
 
 main#main-content section.our-values div.container-article article {
@@ -67,7 +69,7 @@ main#main-content section.store-concepts div{
     display: flex;
     flex-direction: row;
     justify-content: start;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 24px;
     width: 100%;
 }
