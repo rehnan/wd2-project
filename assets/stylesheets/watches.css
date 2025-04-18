@@ -100,6 +100,14 @@ main#main-content section.product-catalog article.product-card {
     display: flex;
     flex-direction: column;
     gap: 8px;
+    padding: 0 5px 0 5px;
+}
+
+main#main-content section.product-catalog article.product-card:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    opacity: 0.8;
 }
 
 main#main-content section.product-catalog article.product-card div.product-details {
